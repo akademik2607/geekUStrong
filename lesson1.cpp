@@ -179,18 +179,6 @@ std::ostream& operator<<(std::ostream& o, const PhoneBook& book){
 
 int main() {
 
-	// Person alex = { "Illarionov", "Alex","ALexandrovich"};
-	// Person alex2 = { "Illarionov", "Alex"};
-	// Person james = {"Joyes", "James"};
-	// std::cout << alex;
-	// std::cout << james;
-	// std::cout << (alex < alex2);
-
-	// std::ifstream file("database.txt");
-	// PhoneBook book(file);
-	// std::cout << book;
-
-
 	std::ifstream file("database.txt"); // путь к файлу PhoneBook.txt
        PhoneBook book(file);
        std::cout << book;
